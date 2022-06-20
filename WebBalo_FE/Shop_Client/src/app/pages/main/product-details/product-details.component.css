@@ -1,0 +1,23 @@
+.breadcrumb-bg-color--golden {
+    background-color: #f5f5f5;
+}
+.product-add-to-cart-btn a:hover {
+    background: #c93d4f;
+}
+.product-details--golden .product-details-catagory ul li a, 
+.product-details--golden .product-details-social ul li a {
+    color: #c93d4f;
+}
+.product-details-content-tab-btn .nav-link.active::after, .product-details-content-tab-btn .nav-link:hover::after {
+    background: #c93d4f;
+}
+.tab-pane img{
+    width: 100%;
+    height: 100%;
+}
+.product-color--golden .content-left .title a:hover,
+.product-color--golden .action-link-left a:hover ,
+.product-color--golden .action-link-right a:hover 
+{
+    color: #c8293c;
+}

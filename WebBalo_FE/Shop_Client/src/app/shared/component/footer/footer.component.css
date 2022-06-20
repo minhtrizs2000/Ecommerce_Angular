@@ -1,0 +1,66 @@
+.footer-center .container .footer-widget-single-item h5,
+.footer-center .container .footer-widget-single-item .footer-about p,
+.footer-center .container .footer-widget-single-item .footer-about span,
+.footer-center .container .footer-widget-single-item .footer-nav a{
+    color: #fff;
+}
+.form-fild-newsletter-single-item.input-color--golden input:focus {
+    border-color: #18ffff;
+}
+.form-fild-newsletter-single-item.input-color--golden button {
+    background: #9b9b97;
+
+}
+.form-fild-newsletter-single-item.input-color--golden button:hover {
+    background: #18ffff;
+    color: #fff;
+}
+.footer-center span{
+    position: relative;
+}
+.footer-center span::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: #18ffff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.footer-center span:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.footer-center .footer-nav li a{
+    position: relative;
+}
+.footer-center .footer-nav li a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: #18ffff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.footer-center .footer-nav li:hover a::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.form-fild-newsletter-single-item input{
+    border: 2px solid #f856a2;
+}
+.form-fild-newsletter-single-item.input-color--golden button{
+    background-image: linear-gradient(to right,#f856a2 0,#18ffff 51%,#f856a2 100%) !important;
+}
+
+.material-scrolltop{
+    background-color: #f856a2;
+}

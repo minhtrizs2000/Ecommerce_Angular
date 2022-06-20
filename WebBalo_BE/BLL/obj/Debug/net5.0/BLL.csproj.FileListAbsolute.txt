@@ -1,0 +1,119 @@
+D:\ĐỒ ÁN 5\QLBanDoGiaDung_API\BLL\bin\Debug\net5.0\BLL.deps.json
+D:\ĐỒ ÁN 5\QLBanDoGiaDung_API\BLL\bin\Debug\net5.0\BLL.dll
+D:\ĐỒ ÁN 5\QLBanDoGiaDung_API\BLL\bin\Debug\net5.0\ref\BLL.dll
+D:\ĐỒ ÁN 5\QLBanDoGiaDung_API\BLL\bin\Debug\net5.0\BLL.pdb
+D:\ĐỒ ÁN 5\QLBanDoGiaDung_API\BLL\bin\Debug\net5.0\DAL.dll
+D:\ĐỒ ÁN 5\QLBanDoGiaDung_API\BLL\bin\Debug\net5.0\Model.dll
+D:\ĐỒ ÁN 5\QLBanDoGiaDung_API\BLL\bin\Debug\net5.0\DAL.pdb
+D:\ĐỒ ÁN 5\QLBanDoGiaDung_API\BLL\bin\Debug\net5.0\Model.pdb
+D:\ĐỒ ÁN 5\QLBanDoGiaDung_API\BLL\obj\Debug\net5.0\BLL.csproj.AssemblyReference.cache
+D:\ĐỒ ÁN 5\QLBanDoGiaDung_API\BLL\obj\Debug\net5.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\ĐỒ ÁN 5\QLBanDoGiaDung_API\BLL\obj\Debug\net5.0\BLL.AssemblyInfoInputs.cache
+D:\ĐỒ ÁN 5\QLBanDoGiaDung_API\BLL\obj\Debug\net5.0\BLL.AssemblyInfo.cs
+D:\ĐỒ ÁN 5\QLBanDoGiaDung_API\BLL\obj\Debug\net5.0\BLL.csproj.CoreCompileInputs.cache
+D:\ĐỒ ÁN 5\QLBanDoGiaDung_API\BLL\obj\Debug\net5.0\BLL.csproj.CopyComplete
+D:\ĐỒ ÁN 5\QLBanDoGiaDung_API\BLL\obj\Debug\net5.0\BLL.dll
+D:\ĐỒ ÁN 5\QLBanDoGiaDung_API\BLL\obj\Debug\net5.0\ref\BLL.dll
+D:\ĐỒ ÁN 5\QLBanDoGiaDung_API\BLL\obj\Debug\net5.0\BLL.pdb
+D:\ĐỒ ÁN 5\QuanLyBanDoGiaDung\QLBanDoGiaDung_API\BLL\bin\Debug\net5.0\BLL.deps.json
+D:\ĐỒ ÁN 5\QuanLyBanDoGiaDung\QLBanDoGiaDung_API\BLL\bin\Debug\net5.0\BLL.dll
+D:\ĐỒ ÁN 5\QuanLyBanDoGiaDung\QLBanDoGiaDung_API\BLL\bin\Debug\net5.0\ref\BLL.dll
+D:\ĐỒ ÁN 5\QuanLyBanDoGiaDung\QLBanDoGiaDung_API\BLL\bin\Debug\net5.0\BLL.pdb
+D:\ĐỒ ÁN 5\QuanLyBanDoGiaDung\QLBanDoGiaDung_API\BLL\bin\Debug\net5.0\DAL.dll
+D:\ĐỒ ÁN 5\QuanLyBanDoGiaDung\QLBanDoGiaDung_API\BLL\bin\Debug\net5.0\Model.dll
+D:\ĐỒ ÁN 5\QuanLyBanDoGiaDung\QLBanDoGiaDung_API\BLL\bin\Debug\net5.0\DAL.pdb
+D:\ĐỒ ÁN 5\QuanLyBanDoGiaDung\QLBanDoGiaDung_API\BLL\bin\Debug\net5.0\Model.pdb
+D:\ĐỒ ÁN 5\QuanLyBanDoGiaDung\QLBanDoGiaDung_API\BLL\obj\Debug\net5.0\BLL.csproj.AssemblyReference.cache
+D:\ĐỒ ÁN 5\QuanLyBanDoGiaDung\QLBanDoGiaDung_API\BLL\obj\Debug\net5.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\ĐỒ ÁN 5\QuanLyBanDoGiaDung\QLBanDoGiaDung_API\BLL\obj\Debug\net5.0\BLL.AssemblyInfoInputs.cache
+D:\ĐỒ ÁN 5\QuanLyBanDoGiaDung\QLBanDoGiaDung_API\BLL\obj\Debug\net5.0\BLL.AssemblyInfo.cs
+D:\ĐỒ ÁN 5\QuanLyBanDoGiaDung\QLBanDoGiaDung_API\BLL\obj\Debug\net5.0\BLL.csproj.CoreCompileInputs.cache
+D:\ĐỒ ÁN 5\QuanLyBanDoGiaDung\QLBanDoGiaDung_API\BLL\obj\Debug\net5.0\BLL.csproj.CopyComplete
+D:\ĐỒ ÁN 5\QuanLyBanDoGiaDung\QLBanDoGiaDung_API\BLL\obj\Debug\net5.0\BLL.dll
+D:\ĐỒ ÁN 5\QuanLyBanDoGiaDung\QLBanDoGiaDung_API\BLL\obj\Debug\net5.0\ref\BLL.dll
+D:\ĐỒ ÁN 5\QuanLyBanDoGiaDung\QLBanDoGiaDung_API\BLL\obj\Debug\net5.0\BLL.pdb
+D:\Angular\do_ann\Project5_QuanLyBanDoGiadung-master\QLBanDoGiaDung_API\BLL\bin\Debug\net5.0\BLL.deps.json
+D:\Angular\do_ann\Project5_QuanLyBanDoGiadung-master\QLBanDoGiaDung_API\BLL\bin\Debug\net5.0\BLL.dll
+D:\Angular\do_ann\Project5_QuanLyBanDoGiadung-master\QLBanDoGiaDung_API\BLL\bin\Debug\net5.0\ref\BLL.dll
+D:\Angular\do_ann\Project5_QuanLyBanDoGiadung-master\QLBanDoGiaDung_API\BLL\bin\Debug\net5.0\BLL.pdb
+D:\Angular\do_ann\Project5_QuanLyBanDoGiadung-master\QLBanDoGiaDung_API\BLL\bin\Debug\net5.0\DAL.dll
+D:\Angular\do_ann\Project5_QuanLyBanDoGiadung-master\QLBanDoGiaDung_API\BLL\bin\Debug\net5.0\Model.dll
+D:\Angular\do_ann\Project5_QuanLyBanDoGiadung-master\QLBanDoGiaDung_API\BLL\bin\Debug\net5.0\DAL.pdb
+D:\Angular\do_ann\Project5_QuanLyBanDoGiadung-master\QLBanDoGiaDung_API\BLL\bin\Debug\net5.0\Model.pdb
+D:\Angular\do_ann\Project5_QuanLyBanDoGiadung-master\QLBanDoGiaDung_API\BLL\obj\Debug\net5.0\BLL.csproj.AssemblyReference.cache
+D:\Angular\do_ann\Project5_QuanLyBanDoGiadung-master\QLBanDoGiaDung_API\BLL\obj\Debug\net5.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Angular\do_ann\Project5_QuanLyBanDoGiadung-master\QLBanDoGiaDung_API\BLL\obj\Debug\net5.0\BLL.AssemblyInfoInputs.cache
+D:\Angular\do_ann\Project5_QuanLyBanDoGiadung-master\QLBanDoGiaDung_API\BLL\obj\Debug\net5.0\BLL.AssemblyInfo.cs
+D:\Angular\do_ann\Project5_QuanLyBanDoGiadung-master\QLBanDoGiaDung_API\BLL\obj\Debug\net5.0\BLL.csproj.CoreCompileInputs.cache
+D:\Angular\do_ann\Project5_QuanLyBanDoGiadung-master\QLBanDoGiaDung_API\BLL\obj\Debug\net5.0\BLL.csproj.CopyComplete
+D:\Angular\do_ann\Project5_QuanLyBanDoGiadung-master\QLBanDoGiaDung_API\BLL\obj\Debug\net5.0\BLL.dll
+D:\Angular\do_ann\Project5_QuanLyBanDoGiadung-master\QLBanDoGiaDung_API\BLL\obj\Debug\net5.0\ref\BLL.dll
+D:\Angular\do_ann\Project5_QuanLyBanDoGiadung-master\QLBanDoGiaDung_API\BLL\obj\Debug\net5.0\BLL.pdb
+D:\Angular\do_ann\QLWebBalo_BE\BLL\bin\Debug\net5.0\BLL.deps.json
+D:\Angular\do_ann\QLWebBalo_BE\BLL\bin\Debug\net5.0\BLL.dll
+D:\Angular\do_ann\QLWebBalo_BE\BLL\bin\Debug\net5.0\ref\BLL.dll
+D:\Angular\do_ann\QLWebBalo_BE\BLL\bin\Debug\net5.0\BLL.pdb
+D:\Angular\do_ann\QLWebBalo_BE\BLL\bin\Debug\net5.0\DAL.dll
+D:\Angular\do_ann\QLWebBalo_BE\BLL\bin\Debug\net5.0\Model.dll
+D:\Angular\do_ann\QLWebBalo_BE\BLL\bin\Debug\net5.0\DAL.pdb
+D:\Angular\do_ann\QLWebBalo_BE\BLL\bin\Debug\net5.0\Model.pdb
+D:\Angular\do_ann\QLWebBalo_BE\BLL\obj\Debug\net5.0\BLL.csproj.AssemblyReference.cache
+D:\Angular\do_ann\QLWebBalo_BE\BLL\obj\Debug\net5.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Angular\do_ann\QLWebBalo_BE\BLL\obj\Debug\net5.0\BLL.AssemblyInfoInputs.cache
+D:\Angular\do_ann\QLWebBalo_BE\BLL\obj\Debug\net5.0\BLL.AssemblyInfo.cs
+D:\Angular\do_ann\QLWebBalo_BE\BLL\obj\Debug\net5.0\BLL.csproj.CoreCompileInputs.cache
+D:\Angular\do_ann\QLWebBalo_BE\BLL\obj\Debug\net5.0\BLL.csproj.CopyComplete
+D:\Angular\do_ann\QLWebBalo_BE\BLL\obj\Debug\net5.0\BLL.dll
+D:\Angular\do_ann\QLWebBalo_BE\BLL\obj\Debug\net5.0\ref\BLL.dll
+D:\Angular\do_ann\QLWebBalo_BE\BLL\obj\Debug\net5.0\BLL.pdb
+D:\Angular\do_ann\NguyenHoangLoc_PhamGiaPhat_Nhom9\QLWebBalo_BE\BLL\bin\Debug\net5.0\BLL.deps.json
+D:\Angular\do_ann\NguyenHoangLoc_PhamGiaPhat_Nhom9\QLWebBalo_BE\BLL\bin\Debug\net5.0\BLL.dll
+D:\Angular\do_ann\NguyenHoangLoc_PhamGiaPhat_Nhom9\QLWebBalo_BE\BLL\bin\Debug\net5.0\ref\BLL.dll
+D:\Angular\do_ann\NguyenHoangLoc_PhamGiaPhat_Nhom9\QLWebBalo_BE\BLL\bin\Debug\net5.0\BLL.pdb
+D:\Angular\do_ann\NguyenHoangLoc_PhamGiaPhat_Nhom9\QLWebBalo_BE\BLL\bin\Debug\net5.0\DAL.dll
+D:\Angular\do_ann\NguyenHoangLoc_PhamGiaPhat_Nhom9\QLWebBalo_BE\BLL\bin\Debug\net5.0\Model.dll
+D:\Angular\do_ann\NguyenHoangLoc_PhamGiaPhat_Nhom9\QLWebBalo_BE\BLL\bin\Debug\net5.0\DAL.pdb
+D:\Angular\do_ann\NguyenHoangLoc_PhamGiaPhat_Nhom9\QLWebBalo_BE\BLL\bin\Debug\net5.0\Model.pdb
+D:\Angular\do_ann\NguyenHoangLoc_PhamGiaPhat_Nhom9\QLWebBalo_BE\BLL\obj\Debug\net5.0\BLL.csproj.AssemblyReference.cache
+D:\Angular\do_ann\NguyenHoangLoc_PhamGiaPhat_Nhom9\QLWebBalo_BE\BLL\obj\Debug\net5.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Angular\do_ann\NguyenHoangLoc_PhamGiaPhat_Nhom9\QLWebBalo_BE\BLL\obj\Debug\net5.0\BLL.AssemblyInfoInputs.cache
+D:\Angular\do_ann\NguyenHoangLoc_PhamGiaPhat_Nhom9\QLWebBalo_BE\BLL\obj\Debug\net5.0\BLL.AssemblyInfo.cs
+D:\Angular\do_ann\NguyenHoangLoc_PhamGiaPhat_Nhom9\QLWebBalo_BE\BLL\obj\Debug\net5.0\BLL.csproj.CoreCompileInputs.cache
+D:\Angular\do_ann\NguyenHoangLoc_PhamGiaPhat_Nhom9\QLWebBalo_BE\BLL\obj\Debug\net5.0\BLL.csproj.CopyComplete
+D:\Angular\do_ann\NguyenHoangLoc_PhamGiaPhat_Nhom9\QLWebBalo_BE\BLL\obj\Debug\net5.0\BLL.dll
+D:\Angular\do_ann\NguyenHoangLoc_PhamGiaPhat_Nhom9\QLWebBalo_BE\BLL\obj\Debug\net5.0\ref\BLL.dll
+D:\Angular\do_ann\NguyenHoangLoc_PhamGiaPhat_Nhom9\QLWebBalo_BE\BLL\obj\Debug\net5.0\BLL.pdb
+D:\HUFLIT\Angular\NguyenHoangLoc_PhamGiaPhat_Nhom9\QLWebBalo_BE\BLL\bin\Debug\net5.0\BLL.deps.json
+D:\HUFLIT\Angular\NguyenHoangLoc_PhamGiaPhat_Nhom9\QLWebBalo_BE\BLL\bin\Debug\net5.0\BLL.dll
+D:\HUFLIT\Angular\NguyenHoangLoc_PhamGiaPhat_Nhom9\QLWebBalo_BE\BLL\bin\Debug\net5.0\BLL.pdb
+D:\HUFLIT\Angular\NguyenHoangLoc_PhamGiaPhat_Nhom9\QLWebBalo_BE\BLL\bin\Debug\net5.0\DAL.dll
+D:\HUFLIT\Angular\NguyenHoangLoc_PhamGiaPhat_Nhom9\QLWebBalo_BE\BLL\bin\Debug\net5.0\Model.dll
+D:\HUFLIT\Angular\NguyenHoangLoc_PhamGiaPhat_Nhom9\QLWebBalo_BE\BLL\bin\Debug\net5.0\DAL.pdb
+D:\HUFLIT\Angular\NguyenHoangLoc_PhamGiaPhat_Nhom9\QLWebBalo_BE\BLL\bin\Debug\net5.0\Model.pdb
+D:\HUFLIT\Angular\NguyenHoangLoc_PhamGiaPhat_Nhom9\QLWebBalo_BE\BLL\obj\Debug\net5.0\BLL.csproj.AssemblyReference.cache
+D:\HUFLIT\Angular\NguyenHoangLoc_PhamGiaPhat_Nhom9\QLWebBalo_BE\BLL\obj\Debug\net5.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\HUFLIT\Angular\NguyenHoangLoc_PhamGiaPhat_Nhom9\QLWebBalo_BE\BLL\obj\Debug\net5.0\BLL.AssemblyInfoInputs.cache
+D:\HUFLIT\Angular\NguyenHoangLoc_PhamGiaPhat_Nhom9\QLWebBalo_BE\BLL\obj\Debug\net5.0\BLL.AssemblyInfo.cs
+D:\HUFLIT\Angular\NguyenHoangLoc_PhamGiaPhat_Nhom9\QLWebBalo_BE\BLL\obj\Debug\net5.0\BLL.csproj.CoreCompileInputs.cache
+D:\HUFLIT\Angular\NguyenHoangLoc_PhamGiaPhat_Nhom9\QLWebBalo_BE\BLL\obj\Debug\net5.0\BLL.csproj.CopyComplete
+D:\HUFLIT\Angular\NguyenHoangLoc_PhamGiaPhat_Nhom9\QLWebBalo_BE\BLL\obj\Debug\net5.0\BLL.dll
+D:\HUFLIT\Angular\NguyenHoangLoc_PhamGiaPhat_Nhom9\QLWebBalo_BE\BLL\obj\Debug\net5.0\refint\BLL.dll
+D:\HUFLIT\Angular\NguyenHoangLoc_PhamGiaPhat_Nhom9\QLWebBalo_BE\BLL\obj\Debug\net5.0\BLL.pdb
+D:\HUFLIT\Angular\NguyenHoangLoc_PhamGiaPhat_Nhom9\QLWebBalo_BE\BLL\obj\Debug\net5.0\ref\BLL.dll
+D:\HUFLIT\Angular\FINAL\WebBalo_BE\BLL\bin\Debug\net5.0\BLL.deps.json
+D:\HUFLIT\Angular\FINAL\WebBalo_BE\BLL\bin\Debug\net5.0\BLL.dll
+D:\HUFLIT\Angular\FINAL\WebBalo_BE\BLL\bin\Debug\net5.0\BLL.pdb
+D:\HUFLIT\Angular\FINAL\WebBalo_BE\BLL\bin\Debug\net5.0\DAL.dll
+D:\HUFLIT\Angular\FINAL\WebBalo_BE\BLL\bin\Debug\net5.0\Model.dll
+D:\HUFLIT\Angular\FINAL\WebBalo_BE\BLL\bin\Debug\net5.0\DAL.pdb
+D:\HUFLIT\Angular\FINAL\WebBalo_BE\BLL\bin\Debug\net5.0\Model.pdb
+D:\HUFLIT\Angular\FINAL\WebBalo_BE\BLL\obj\Debug\net5.0\BLL.csproj.AssemblyReference.cache
+D:\HUFLIT\Angular\FINAL\WebBalo_BE\BLL\obj\Debug\net5.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\HUFLIT\Angular\FINAL\WebBalo_BE\BLL\obj\Debug\net5.0\BLL.AssemblyInfoInputs.cache
+D:\HUFLIT\Angular\FINAL\WebBalo_BE\BLL\obj\Debug\net5.0\BLL.AssemblyInfo.cs
+D:\HUFLIT\Angular\FINAL\WebBalo_BE\BLL\obj\Debug\net5.0\BLL.csproj.CoreCompileInputs.cache
+D:\HUFLIT\Angular\FINAL\WebBalo_BE\BLL\obj\Debug\net5.0\BLL.csproj.CopyComplete
+D:\HUFLIT\Angular\FINAL\WebBalo_BE\BLL\obj\Debug\net5.0\BLL.dll
+D:\HUFLIT\Angular\FINAL\WebBalo_BE\BLL\obj\Debug\net5.0\refint\BLL.dll
+D:\HUFLIT\Angular\FINAL\WebBalo_BE\BLL\obj\Debug\net5.0\BLL.pdb
+D:\HUFLIT\Angular\FINAL\WebBalo_BE\BLL\obj\Debug\net5.0\ref\BLL.dll

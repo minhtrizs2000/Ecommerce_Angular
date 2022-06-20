@@ -1,0 +1,10 @@
+.btn-golden {
+    background: #ce1f38;
+    border-color: #ce1f38;
+    color: #fff;
+}
+.btn-golden:hover {
+    color: #ce1f38;
+    border-color: #ce1f38;
+    background: 0 0;
+}

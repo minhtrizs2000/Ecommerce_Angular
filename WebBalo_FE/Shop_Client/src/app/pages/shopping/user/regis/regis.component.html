@@ -1,0 +1,245 @@
+<!--register area end-->
+<div class="limiter">
+  <div class="container-login100">
+    <div class="wrap-login100">
+      <div class="login100-pic js-tilt" data-tilt>
+        <img src="assets/login/images/ava.jpg" alt="IMG" />
+      </div>
+
+      <form
+        class="login100-form validate-form"
+        [formGroup]="frmRegister"
+        (ngSubmit)="onRegister(frmRegister.value)"
+      >
+        <span class="login100-form-title"> Đăng kí </span>
+        <label class="form-label" for="hoten"
+          >Họ tên <span class="text-require">*</span></label
+        >
+        <div
+          class="wrap-input100 validate-input"
+          data-validate="Valid email is required: ex@abc.xyz"
+        >
+          <input
+            type="text"
+            formControlName="HoTen"
+            id="hoten"
+            placeholder="Nhập họ tên"
+            class="input100"
+          />
+          <span class="focus-input100"></span>
+          <span class="symbol-input100">
+            <i class="fa fa-user" aria-hidden="true"></i>
+          </span>
+        </div>
+        <label
+          class="col alert alert-danger"
+          role="alert"
+          *ngIf="
+            frmRegister.controls.HoTen?.errors?.required &&
+            frmRegister.controls.Hoten?.touched
+          "
+        >
+          Họ tên là rỗng hoặc không đúng định dạng!
+        </label>
+
+        <!-- ngay sinh -->
+        <label>Ngày sinh <span class="text-require">*</span></label>
+        <div
+          class="wrap-input100 validate-input"
+          data-validate="Password is required"
+        >
+          <input
+            class="input100"
+            type="date"
+            formControlName="NgaySinh"
+            id="NgaySinh"
+          />
+          <span class="focus-input100"></span>
+          <span class="symbol-input100">
+            <i class="fa fa-calendar" aria-hidden="true"></i>
+          </span>
+        </div>
+
+        <!-- Địa chỉ -->
+        <label>Địa chỉ <span class="text-require">*</span></label>
+        <div
+          class="wrap-input100 validate-input"
+          data-validate="Password is required"
+        >
+          <input
+            class="input100"
+            type="text"
+            formControlName="DiaChi"
+            id="DiaChi"
+            placeholder="Nhập địa chỉ"
+          />
+          <span class="focus-input100"></span>
+          <span class="symbol-input100">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+          </span>
+        </div>
+        <label
+          class="col alert alert-danger"
+          role="alert"
+          *ngIf="
+            frmRegister.controls.DiaChi?.errors?.required &&
+            frmRegister.controls.DiaChi?.touched
+          "
+        >
+          Địa chỉ là rỗng hoặc không đúng định dạng!
+        </label>
+
+        <!--Giới tính -->
+        <label>Giới tính <span class="text-require">*</span></label>
+        <div
+          class="wrap-input100 validate-input"
+          data-validate="Password is required"
+        >
+          <select class="input100" name="" id="" formControlName="GioiTinh">
+            <option selected value="Nam">Nam</option>
+            <option value="Nữ">Nữ</option>
+            <option value="Khác">Khác</option>
+          </select>
+          <span class="focus-input100"></span>
+          <span class="symbol-input100">
+            <i class="fa fa-venus" aria-hidden="true"></i>
+          </span>
+        </div>
+
+        <!--Email -->
+        <label>Email <span class="text-require">*</span></label>
+        <div
+          class="wrap-input100 validate-input"
+          data-validate="Password is required"
+        >
+          <input
+            class="input100"
+            type="email"
+            formControlName="Email"
+            id="Email"
+            placeholder="Nhập email"
+          />
+          <span class="focus-input100"></span>
+          <span class="symbol-input100">
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+          </span>
+        </div>
+        <label
+          class="col alert alert-danger"
+          role="alert"
+          *ngIf="
+            frmRegister.controls.Email?.errors?.required &&
+            frmRegister.controls.Email?.touched
+          "
+        >
+          Email là rỗng hoặc không đúng định dạng!
+        </label>
+
+        <!--Tài khoản -->
+        <label>Tài khoản <span class="text-require">*</span></label>
+        <div
+          class="wrap-input100 validate-input"
+          data-validate="Password is required"
+        >
+          <input
+            class="input100"
+            type="text"
+            formControlName="TaiKhoan"
+            id="TaiKhoan"
+            placeholder="Nhập tài khoản"
+          />
+          <span class="focus-input100"></span>
+          <span class="symbol-input100">
+            <i class="fa fa-address-book" aria-hidden="true"></i>
+          </span>
+        </div>
+        <label
+          class="col alert alert-danger"
+          role="alert"
+          *ngIf="
+            frmRegister.controls.TaiKhoan?.errors?.required &&
+            frmRegister.controls.TaiKhoan?.touched
+          "
+        >
+          Tài khoản là rỗng hoặc không đúng định dạng!
+        </label>
+
+        <!--Mật khẩu -->
+        <label>Mật khẩu <span class="text-require">*</span></label>
+        <div
+          class="wrap-input100 validate-input"
+          data-validate="Password is required"
+        >
+          <input
+            class="input100"
+            type="password"
+            formControlName="MatKhau"
+            id="MatKhau"
+            placeholder="Nhập mật khẩu"
+          />
+          <span class="focus-input100"></span>
+          <span class="symbol-input100">
+            <i class="fa fa-lock" aria-hidden="true"></i>
+          </span>
+        </div>
+        <label
+          class="col alert alert-danger"
+          role="alert"
+          *ngIf="
+            frmRegister.controls.MatKhau?.errors?.required &&
+            frmRegister.controls.MatKhau?.touched
+          "
+        >
+          Mật khẩu là rỗng hoặc không đúng định dạng!
+        </label>
+
+        <!--Nhập lại Mật khẩu -->
+        <label>Nhập lại Mật khẩu <span class="text-require">*</span></label>
+        <div
+          class="wrap-input100 validate-input"
+          data-validate="Password is required"
+        >
+          <input
+            class="input100"
+            type="password"
+            formControlName="NhapLaiMatKhau"
+            id="NhapLaiMatKhau"
+            placeholder="Nhập lại mật khẩu"
+          />
+          <span class="focus-input100"></span>
+          <span class="symbol-input100">
+            <i class="fa fa-lock" aria-hidden="true"></i>
+          </span>
+        </div>
+        <div
+          *ngIf="submitted && frmRegister.controls.NhapLaiMatKhau.errors"
+          class="invalid-feedback input100"
+        >
+          <div *ngIf="frmRegister.controls.NhapLaiMatKhau.errors.required">
+            Xác nhận lại mật khẩu là bắt buộc
+          </div>
+          <div *ngIf="frmRegister.controls.NhapLaiMatKhau.errors.mustMatch">
+            Xác thực lại mật khẩu không đúng
+          </div>
+        </div>
+
+        <div class="container-login100-form-btn">
+          <button
+            class="login100-form-btn"
+            type="submit"
+            [disabled]="frmRegister.invalid || loading"
+          >
+            Đăng kí
+          </button>
+        </div>
+
+        <div class="text-center p-t-136">
+          <a class="txt2" routerLink="/auth/login">
+            Đăng nhập
+            <i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
+          </a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

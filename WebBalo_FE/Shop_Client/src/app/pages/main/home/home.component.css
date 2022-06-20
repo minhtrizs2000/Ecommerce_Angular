@@ -1,0 +1,107 @@
+.hero-slider-section .hero-slider-active.swiper-container .swiper-pagination.active-color-golden span{
+    background-color: #c8293c;
+
+}
+.item1 img{
+    height: 150px;
+    width: 150px;
+}
+.item2 img,.item3 img{
+    height: 330px;
+    width: 330px;
+}
+.blog__img img{
+    width: 450px;
+    height: 360px;
+}
+.hero-slider-bg{
+    text-align: right;
+}
+.hero-slider-bg img{
+    right: 0;
+    width: 50%;
+}
+.hero-single-slider-item.swiper-slide{
+    background: url(../../../../assets/images/hero-slider/home-1/backround_banner.jpg);
+    background-size: cover;
+}
+.section-top-gap-100{
+    margin-bottom: 100px;
+}
+.banner-single-item.banner-style-4.banner-animation .image img {
+    max-height: 475.75px;
+}
+.banner-style-4 .content .title {
+    color: #ff001e;
+}
+.banner-style-4.banner-color--golden:hover .content .round-btn {
+    color: #fff;
+    background: #ff001e;
+}
+.banner-section.section-top-gap-100 .banner-style-1 .image img{
+    max-width:  831px;
+    max-height:  534px;
+}
+.banner-section.section-top-gap-100 .banner-style-2 .image img{
+    max-width:  400px;
+    max-height:  252px;
+}
+.product-color--golden .content-left .title a:hover {
+    color: #c8293c;
+}
+.blog-default-single-item.blog-color--golden .content .title a:hover {
+    color: #c8293c;
+}
+.blog-default-single-item.blog-color--golden .content .read-more-btn:hover,
+.product-color--golden .action-link-left a:hover ,
+.product-color--golden .action-link-right a:hover 
+{
+    color: #c8293c;
+}
+.btn-outline-golden:hover {
+    color: #c8293c;    
+    border-color: #c8293c;
+}
+.banner-style-2 .content .link-text:hover {
+    color: #c8293c;
+}
+.service-promo-section{
+    background: #f6f6f6;
+    margin-bottom: 0;
+}
+.service-promo-single-item {
+    margin-top: 33px;
+}
+
+.hero-slider-content .title{
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.hero-slider-content .title .branch{
+    color: #01AFD1;
+}
+
+.hero-slider-content .title .age{
+    color: #f856a2;
+}
+
+.btn{
+    background-image: linear-gradient(to right,#01FFFF 0,#f856a2 51%,#00B8EA 100%);
+    background-size: 200%;
+    transition:  all .5s;
+    border-color: transparent;
+    color: #fff;
+
+}
+
+.btn:hover{
+    background-position: right center;
+    border-color: transparent;
+    color: #fff;
+
+}
+
+.hero-slider-active .swiper-pagination.active-color-golden span.swiper-pagination-bullet-active{
+    background-color: #f856a2 !important;
+}

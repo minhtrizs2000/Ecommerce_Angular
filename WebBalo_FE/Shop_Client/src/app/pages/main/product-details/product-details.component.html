@@ -1,0 +1,326 @@
+<!-- ...:::: Start Breadcrumb Section:::... -->
+<div class="breadcrumb-section breadcrumb-bg-color--golden">
+  <div class="breadcrumb-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="breadcrumb-title">Thông tin sản phẩm</h3>
+          <div
+            class="breadcrumb-nav breadcrumb-nav-color--black breadcrumb-nav-hover-color--golden"
+          >
+            <nav aria-label="breadcrumb">
+              <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li>
+                  <a href="shop-grid-sidebar-left.html">{{
+                    product.tenLoai
+                  }}</a>
+                </li>
+                <li class="active" aria-current="page">
+                  {{ product.tenSanPham }}
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ...:::: End Breadcrumb Section:::... -->
+
+<!-- Start Product Details Section -->
+<div class="product-details-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-5 col-lg-6">
+        <div
+          class="product-details-gallery-area"
+          data-aos="fade-up"
+          data-aos-delay="0"
+        >
+          <!-- Start Large Image -->
+          <div
+            class="product-large-image product-large-image-horaizontal swiper-container"
+          >
+            <div class="swiper-wrapper">
+              <div
+                class="product-image-large-image swiper-slide zoom-image-hover img-responsive"
+              >
+                <img
+                  src="assets/images/hero-slider/home-1/{{ product.anh }}"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <!-- End Large Image -->
+          <!-- Start Thumbnail Image -->
+          <div
+            class="product-image-thumb product-image-thumb-horizontal swiper-container pos-relative mt-5"
+          >
+            <!-- Add Arrows -->
+            <div class="gallery-thumb-arrow swiper-button-next"></div>
+            <div class="gallery-thumb-arrow swiper-button-prev"></div>
+          </div>
+          <!-- End Thumbnail Image -->
+        </div>
+      </div>
+      <div class="col-xl-7 col-lg-6">
+        <div
+          class="product-details-content-area product-details--golden"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          <!-- Start  Product Details Text Area-->
+          <div class="product-details-text">
+            <h4 class="title">{{ product.tenSanPham }}</h4>
+            <div class="price">{{ product.giaBan | currency: "VND" }}</div>
+            <p [innerHtml]="product.moTa"></p>
+          </div>
+          <!-- End  Product Details Text Area-->
+          <!-- Start Product Variable Area -->
+          <div class="product-details-variable">
+            <!-- Product Variable Single Item -->
+            <div class="d-flex align-items-center">
+              <!-- <div class="variable-single-item">
+                <span>Số lượng</span>
+                <div class="product-variable-quantity">
+                  <input min="1" max="100" value="1" type="number" />
+                </div>
+              </div> -->
+
+              <div class="product-add-to-cart-btn">
+                <a
+                  href="#"
+                  (click)="addToCart(product)"
+                  class="btn btn-block btn-lg btn-black-default-hover"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalAddcart"
+                  >+ Thêm giỏ hàng</a
+                >
+              </div>
+            </div>
+            <!-- Start  Product Details Meta Area-->
+            <!-- End  Product Details Meta Area-->
+          </div>
+          <!-- End Product Variable Area -->
+
+          <!-- Start  Product Details Catagories Area-->
+          <div class="product-details-catagory mb-2">
+            <span class="title">LOẠI HÀNG:</span>
+            <ul>
+              <li>
+                <a routerLink="/product-list/{{ product.maLoai }}">{{
+                  product.tenLoai
+                }}</a>
+              </li>
+            </ul>
+          </div>
+          <!-- End  Product Details Catagories Area-->
+          <!-- Start  Product Details Social Area-->
+          <div class="product-details-social">
+            <span class="title">CHIA SẺ SẢN PHẨM:</span>
+            <ul>
+              <li>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-pinterest"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+          <!-- End  Product Details Social Area-->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Product Details Section -->
+
+<!-- Start Product Content Tab Section -->
+<div class="product-details-content-tab-section section-top-gap-100">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div
+          class="product-details-content-tab-wrapper"
+          data-aos="fade-up"
+          data-aos-delay="0"
+        >
+          <!-- Start Product Details Tab Button -->
+          <ul
+            class="nav tablist product-details-content-tab-btn d-flex justify-content-center"
+          >
+            <li>
+              <a
+                class="nav-link active"
+                data-bs-toggle="tab"
+                href="#description"
+              >
+                Description
+              </a>
+            </li>
+            <li>
+              <a class="nav-link" data-bs-toggle="tab" href="#specification">
+                Specification
+              </a>
+            </li>
+          </ul>
+          <!-- End Product Details Tab Button -->
+
+          <!-- Start Product Details Tab Content -->
+          <div class="product-details-content-tab">
+            <div class="tab-content">
+              <!-- Start Product Details Tab Content Singel -->
+              <div class="tab-pane active show" id="description">
+                <div
+                  class="single-tab-content-item"
+                  [innerHtml]="product.moTa"
+                ></div>
+              </div>
+              <!-- End Product Details Tab Content Singel -->
+              <!-- Start Product Details Tab Content Singel -->
+              <div class="tab-pane" id="specification">
+                <div class="single-tab-content-item">
+                  <table class="table table-bordered mb-20">
+                    <tbody>
+                      <tr>
+                        <th scope="row">Loại sản phẩm</th>
+                        <td>{{ product.tenLoai }}</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Hãng sản phẩm</th>
+                        <td>{{ product.tenHang }}</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">Xuất xứ</th>
+                        <td>{{ product.xuatXu }}</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Bảo hành</th>
+                        <td>{{ product.baoHanh }}</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Màu sắc</th>
+                        <td>{{ product.mauSac }}</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <img src="{{ product.ghiChu }}" />
+              </div>
+              <!-- End Product Details Tab Content Singel -->
+            </div>
+          </div>
+          <!-- End Product Details Tab Content -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Product Content Tab Section -->
+
+<!-- Start Product Default Slider Section -->
+<div class="product-default-slider-section section-top-gap-100 section-fluid">
+  <!-- Start Section Content Text Area -->
+  <div class="section-title-wrapper" data-aos="fade-up" data-aos-delay="0">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-content-gap">
+            <div class="secton-content">
+              <h3 class="section-title">Sản phẩm bán chạy</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Start Section Content Text Area -->
+  <div class="product-wrapper" data-aos="fade-up" data-aos-delay="0">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="product-slider-default-1row default-slider-nav-arrow">
+            <!-- Slider main container -->
+            <div class="swiper-container product-default-slider-4grid-1row">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- End Product Default Single Item -->
+                <!-- Start Product Default Single Item -->
+                <div
+                  class="product-default-single-item product-color--golden swiper-slide"
+                  *ngFor="let item of list_item"
+                >
+                  <div class="image-box">
+                    <a
+                      routerLink="/product-details/{{ item.maSanPham }}"
+                      class="image-link"
+                    >
+                      <img
+                        src="assets/images/hero-slider/home-1/{{ item.anh }}"
+                        alt=""
+                      />
+                      <img
+                        src="assets/images/hero-slider/home-1/{{ item.anh }}"
+                        alt=""
+                      />
+                    </a>
+                    <div class="action-link">
+                      <div class="action-link-left">
+                        <a
+                          href="#"
+                          data-bs-toggle="modal"
+                          (click)="addToCart(product)"
+                          data-bs-target="#modalAddcart"
+                          >Thêm vào giỏ hàng</a
+                        >
+                      </div>
+                      <div class="action-link-right">
+                        <a
+                          href="#"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modalQuickview"
+                          (click)="detailProduct(product)"
+                          ><i class="icon-magnifier"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <div class="content-left">
+                      <h6 class="title">
+                        <a routerLink="/product-details/{{ item.maSanPham }}">{{
+                          item.tenSanPham
+                        }}</a>
+                      </h6>
+                    </div>
+                    <div class="content-right">
+                      <span class="price">{{ item.giaBan }}</span>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Product Default Single Item -->
+              </div>
+            </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Product Default Slider Section -->

@@ -1,0 +1,153 @@
+<!-- ...:::: Start Breadcrumb Section:::... -->
+<div class="breadcrumb-section breadcrumb-bg-color--golden">
+  <div class="breadcrumb-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="breadcrumb-title">Giỏ Hàng</h3>
+          <div
+            class="breadcrumb-nav breadcrumb-nav-color--black breadcrumb-nav-hover-color--golden"
+          >
+            <nav aria-label="breadcrumb">
+              <ul>
+                <li><a routerLink="/">Trang chủ</a></li>
+                <li class="active" aria-current="page">Giỏ hàng</li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ...:::: End Breadcrumb Section:::... -->
+
+<!-- ...:::: Start Cart Section:::... -->
+<div class="cart-section">
+  <!-- Start Cart Table -->
+  <div class="cart-table-wrapper" data-aos="fade-up" data-aos-delay="0">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="table_desc">
+            <div class="table_page table-responsive">
+              <table>
+                <!-- Start Cart Table Head -->
+                <thead>
+                  <tr>
+                    <th class="product_name">Tên hàng</th>
+                    <th class="product_thumb">Hình ảnh</th>
+                    <th class="product-price">Đơn giá</th>
+                    <th class="product_quantity">Số lượng</th>
+                    <th class="product_total">Thành tiền</th>
+                    <th class="product_remove">Xóa</th>
+                  </tr>
+                </thead>
+                <!-- End Cart Table Head -->
+                <tbody>
+                  <!-- Start Cart Single Item-->
+                  <tr *ngFor="let product of items">
+                    <td class="product_name">
+                      <a
+                        routerLink="/product-details/{{ product.maSanPham }}"
+                        >{{ product.tenSanPham }}</a
+                      >
+                    </td>
+                    <!-- <td class="product_remove"><button class="btn btn-primary" (click)="_cart.deleteItem(product.maSanPham)">Xóa</button></td> -->
+                    <td class="product_thumb">
+                      <a routerLink="/product-details/{{ product.maSanPham }}"
+                        ><img
+                          src="assets/images/hero-slider/home-1/{{
+                            product.anh
+                          }}"
+                          alt=""
+                      /></a>
+                    </td>
+                    <td class="product-price">
+                      {{ product.giaBan | currency: "VND" }}
+                    </td>
+                    <td class="product_quantity">
+                      <label>Số lượng</label>
+                      <input
+                        #inp
+                        min="1"
+                        max="100"
+                        value="1"
+                        (change)="addQty(product, inp.value)"
+                        [value]="product.quantity"
+                        type="number"
+                      />
+                    </td>
+                    <td class="product_total">
+                      {{ product.money | currency: "VND" }}
+                    </td>
+                    <td class="product_remove">
+                      <a (click)="_cart.deleteItem(product.maSanPham)"
+                        ><i class="fa fa-trash-o"></i
+                      ></a>
+                    </td>
+                  </tr>
+                  <!-- End Cart Single Item-->
+                </tbody>
+              </table>
+            </div>
+            <div class="cart_submit">
+              <button
+                (click)="onHome()"
+                class="btn btn-md btn-golden mr-3 btn-custom"
+                type="submit"
+              >
+                Quay lại mua hàng
+              </button>
+              <!-- <button class="btn btn-md btn-golden" type="submit">update ca</button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Cart Table -->
+
+  <!-- Start Coupon Start -->
+  <div class="coupon_area">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div
+            class="coupon_code right"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
+            <h3>Tổng giá trị giỏ hàng</h3>
+            <div class="coupon_inner">
+              <!-- <div class="cart_subtotal">
+                                <p>Tổng tiền</p>
+                                <p class="cart_amount">{{total| currency: "VND"}}</p>
+                            </div> -->
+              <!-- <div class="cart_subtotal ">
+                                <p>Shipping</p>
+                                <p class="cart_amount"><span>Flat Rate:</span> $255.00</p>
+                            </div> -->
+              <!-- <a href="#">Calculate shipping</a> -->
+
+              <div class="cart_subtotal">
+                <p class="title">Tổng tiền</p>
+                <p class="cart_amount">{{ total | currency: "VND" }}</p>
+              </div>
+              <div class="checkout_btn">
+                <a
+                  routerLink="/shopping/checkout"
+                  class="btn btn-md btn-golden btn-custom"
+                  *ngIf="total > 0"
+                  >Thanh toán</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Coupon Start -->
+</div>
+<!-- ...:::: End Cart Section:::... -->

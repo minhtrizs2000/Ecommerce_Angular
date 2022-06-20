@@ -1,0 +1,141 @@
+<div class="top">
+    <h2>Danh sách tin tức</h2>
+    <div class="right">
+        <!-- <button class="btnX" pButton type="button" (click)="showAdd()" lable="Thêm"></button> -->
+        <p-button (click)="showAdd()" icon="pi pi-external-link" label="Thêm"></p-button>
+        
+    </div>
+</div>
+<div class="bot">
+    <p-panel header="Tìm kiếm" [style]="{'margin-top': '2px'}">
+        <form class="form-horizontal" role="form" [formGroup]="formsearch"  (ngSubmit)="search()">
+            <div class="form-group">
+                <label class="col-sm-1 control-label no-padding-right"> Tiêu đề </label>
+                <div class="col-sm-11">
+                    <input formControlName="tieuDe" class="form-control" type="text" placeholder="Tiêu đề" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-1 control-label no-padding-right"></label>
+                <div class="col-sm-11">
+                    <button (click)="search()" class="btn btn-sm btn-primary">Tìm kiếm</button>
+                </div>
+            </div>
+        </form> 
+        <!-- Start Sort Select Option -->
+        <div class="sort-select-list d-flex align-items-center mt-3">
+            <label class="mr-2">Hiển thị:</label>
+            <fieldset>
+                <select class="form-control" [(ngModel)]="pageSize" (ngModelChange)="loadPage(1)">
+                    <option selected value="3">3</option>
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                    <option value="50">50</option>
+                    <option value="{{totalItems}}">All</option>
+                </select>
+            </fieldset>
+        </div> 
+        <!-- End Sort Select Option -->
+        <div class="col-md-4 text-right">
+            <button class="btn btn-success btn-block" (click)="openPDF()">Download PDF</button>
+        </div>
+    </p-panel>
+    <p-table id="blog" selectionMode="single" [value]="blogs" styleClass="p-datatable-gridlines" [style]="{'margin-top': '2px', 'width': '100%'}" >
+        <ng-template pTemplate="header">
+            <tr>
+                <th>STT</th>
+                <th>Tiêu đề</th>
+                <th>Mô tả</th>
+                <th>Người đăng</th>
+                <th>Ngày đăng</th>
+                <th>Hình ảnh</th>
+                <th>Thao tác</th>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-blog  let-i="rowIndex" let-expanded="expanded">
+            <tr>
+                <td style="text-align: center;">{{i+1}}</td>
+                <td style="text-align: center;">{{blog.tieuDe}}</td>
+                <td  [innerHtml]='blog.moTa'></td>
+                <td>{{blog.hoTen}}</td>
+                <td>{{blog.ngayDang}}</td>
+                <td><img src="../../../../assets/images/img/{{blog.anh}}" width="150px" height="100px" alt=""></td>
+                <td  style="text-align: center;">
+                    <button pButton type="button" (click)="edit(blog)" title="Sửa"  class="p-button-secondary"><i class="fas fa-edit"></i></button>
+                    <button pButton type="button" (click)="delete(blog.maTinTuc)" title="Xóa"  class="p-button-danger"><i class="fas fa-trash"></i></button>
+                </td>
+            </tr>
+        </ng-template>
+    </p-table>
+    <div class="mt-5" style="position: relative;margin-left: 40%;">
+        <ngb-pagination [collectionSize]="totalItems" [pageSize]="pageSize" [(page)]="page" [maxSize]="10" [rotate]="true" (pageChange)="loadPage($event)"></ngb-pagination>
+    </div>
+</div>
+
+<!-- Add -->
+<p-dialog [(visible)]="displayAdd" [style]="{width: '30vw'}" [dismissableMask]="true" [modal]="true">
+    
+    <form (ngSubmit)="AddNewBlog(form)" #form="ngForm">
+        <h3>Thêm tin tức mới </h3>
+        <div style="width: 100%; margin-left: 5%;">
+            <input type="hidden" name="maTinTuc"  ngModel #maTinTuc="ngModel" >
+            <label style="font-weight: bold;">Tiêu đề:</label>
+            <input type="text" class="form-control" name="tieuDe"  ngModel #tieuDe="ngModel" placeholder="Tiêu đề">
+            <label style="font-weight: bold;">Mô tả:</label>
+            <p-editor [style]="{'height':'320px'}" name="moTa"  ngModel #moTa="ngModel"></p-editor>
+            <label style="font-weight: bold;">Nội dung:</label>
+            <p-editor [style]="{'height':'320px'}" name="noiDung"  ngModel #noiDung="ngModel"></p-editor>
+            <label style="font-weight: bold;">Người đăng: {{user.hoTen}}</label>
+            <input type="text" class="form-control" placeholder="Người đăng" [(ngModel)]="user.maNguoiDung" name="maNguoiDung"  ngModel #maNguoiDung="ngModel" >
+            <label style="font-weight: bold;">Ngày đăng:</label>
+            <input type="date" class="form-control" name="ngayDang"  ngModel #ngayDang="ngModel">
+            <label style="font-weight: bold;">Hình ảnh:</label>
+            <input type="file" class="form-control" (change)="onChange($event)" name="Anh"  ngModel #Anh="ngModel">
+         
+            <div class="mt-3">
+                <button type="submit" class="btn btn-primary btn-lg btn-block"><i class="mdi mdi-check"></i>Thêm</button>
+                <button type="button" (click)="displayAdd=false" class="btn btn-danger btn-lg btn-block "> <i class="mdi mdi-window-close"></i>Huỷ</button>
+            </div>
+        </div>
+    </form>
+</p-dialog>
+
+<p-dialog [(visible)]="isEdit" [style]="{width: '30vw'}" [dismissableMask]="true" [modal]="true">
+    <!-- Content -->
+    <form (ngSubmit)="SaveData()" #form="ngForm">
+        
+        
+        <h3>Sửa thông tin tin tức</h3>
+        
+        <div style="width: 90%; margin-left: 5%;">
+            
+            <label style="font-weight: bold;">Tiêu đề:</label>
+            <input type="text" class="form-control"  [(ngModel)]="blog.tieuDe" name="tieuDe"  placeholder="Tiêu đề">
+            <label style="font-weight: bold;">Mô tả:</label>
+            <p-editor [style]="{'height':'320px'}" name="moTa"  ngModel #moTa="ngModel" [(ngModel)]="blog.moTa"></p-editor>
+            <label style="font-weight: bold;">Nội dung:</label>
+            <p-editor [style]="{'height':'320px'}" name="noiDung"  ngModel #noiDung="ngModel" [(ngModel)]="blog.noiDung"></p-editor>
+            <label style="font-weight: bold;">Người đăng:</label>
+            <input type="text" class="form-control" placeholder="Người đăng" name="maNguoiDung"  ngModel #maNguoiDung="ngModel"  [(ngModel)]="blog.nguoiDang" >
+            <label style="font-weight: bold;">Ngày đăng:</label>
+            <input type="date" class="form-control" name="ngaydang"  ngModel #ngayDang="ngModel" [(ngModel)]="blog.ngayDang">
+            <label style="font-weight: bold;">Hình ảnh:</label>
+            <div style="display: flex;">
+                <img ng-if="anh" src="../../../../assets/images/img/{{blog.anh}}" style="width: 100px; height: 100px; margin-right: 10px;">
+                <input type="file" class="form-control" (change)="onChange($event)" name="Anh"  ngModel #Anh="ngModel">
+            </div>
+            <div class="mt-3">
+                <button type="submit" class="btn btn-primary btn-lg btn-block"  >
+                    <i class="mdi mdi-check"></i>
+                    Lưu
+                </button>
+                <button type="button" (click)="isEdit=false" class="btn btn-danger btn-lg btn-block"> <i
+                    class="mdi mdi-window-close"></i>
+                    Huỷ</button>
+                </div>
+            </div>
+        </form>
+    </p-dialog>
+    
+    

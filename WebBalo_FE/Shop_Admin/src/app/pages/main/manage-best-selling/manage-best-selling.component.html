@@ -1,0 +1,11 @@
+<div id="best-selling">
+    <div class="top">
+        <h2>Biểu đồ sản phẩm bán chạy</h2>
+    </div>
+    <div class="col-md-4 text-right">
+        <button class="btn btn-success btn-block" (click)="openPDF()">Download PDF</button>
+    </div>
+    <p-panel>
+        <p-chart type="bar" [data]="getBestSelling" ></p-chart>
+    </p-panel>
+</div>

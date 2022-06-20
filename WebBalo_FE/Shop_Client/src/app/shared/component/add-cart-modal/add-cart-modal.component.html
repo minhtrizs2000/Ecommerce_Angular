@@ -1,0 +1,87 @@
+<div
+  class="modal fade"
+  id="modalAddcart"
+  tabindex="-1"
+  role="dialog"
+  aria-hidden="true"
+  *ngFor="let item of items"
+>
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col text-right">
+              <button
+                type="button"
+                class="close modal-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true"> <i class="fa fa-times"></i></span>
+              </button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-7">
+              <div class="row">
+                <li class="offcanvas-cart-item-single">
+                  <div class="col-md-4">
+                    <div class="modal-add-cart-product-img">
+                      <img
+                        class="img-fluid"
+                        src="assets/images/hero-slider/home-1/{{ item.anh }}"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-8">
+                    <a href="#" class="offcanvas-cart-item-link">{{
+                      item.tenSanPham
+                    }}</a>
+                    <div class="offcanvas-cart-item-details">
+                      <span class="offcanvas-cart-item-details-quantity"
+                        >{{ item.quantity }} x
+                      </span>
+                      <span class="offcanvas-cart-item-details-price">{{
+                        item.giaBan | currency: "VND"
+                      }}</span>
+                    </div>
+                  </div>
+                </li>
+              </div>
+            </div>
+            <div class="col-md-5 modal-border">
+              <ul class="modal-add-cart-product-shipping-info">
+                <li>
+                  <strong
+                    ><i class="icon-shopping-cart"></i>Có trong giỏ hàng của
+                    bạn.</strong
+                  >
+                </li>
+                <li>
+                  <strong>TOTAL PRICE: </strong>
+                  <span> {{ total | currency: "VND" }}</span>
+                </li>
+                <li class="modal-continue-button">
+                  <a href="#" data-bs-dismiss="modal">CONTINUE SHOPPING</a>
+                </li>
+                <li>
+                  <div class="modal-add-cart-product-cart-buttons">
+                    <a
+                      [routerLinkActiveOptions]="{ exact: true }"
+                      routerLinkActive="active"
+                      routerLink="shopping/cart"
+                      >View Cart</a
+                    >
+                    <a routerLink="shopping/checkout">Checkout</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

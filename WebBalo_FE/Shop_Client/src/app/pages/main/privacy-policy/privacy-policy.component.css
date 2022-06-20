@@ -1,0 +1,23 @@
+.color-title{
+    color: #3a445e;
+}
+.font-title{
+    font-size: 40px;
+    font-weight: bold;
+}
+.font-item{
+    font-size: 16px;
+    font-weight: bold;
+}
+ul{
+    list-style-type: disc;
+    margin-left: 40px;
+}
+.breadcrumb-bg-color--golden {
+    background: #f5f5f5;
+}
+p,li{
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+}

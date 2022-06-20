@@ -1,0 +1,53 @@
+.has-dropdown .mega-menu .mega-menu-inner{
+    justify-content: space-around;
+}
+.sticky-header.sticky.sticky-color--golden {
+    background: #fff;
+}
+.header-wrapper .header-bottom-color--golden {
+    background: #fff;
+}
+.menu-hover-color--golden nav>ul>li>a:hover,
+.menu-hover-color--golden .mega-menu-sub>li>a:hover,
+.menu-hover-color--golden .mega-menu-item-title:hover,
+.menu-hover-color--golden .mega-menu-item-title:hover,
+.action-hover-color--golden.header-action-link li a:hover,
+.mobile-contact-info .user-link li a:hover
+{
+    color:  #18FFFF;
+}
+.action-hover-color--golden .offside-about {
+    background:#fff
+}
+.action-hover-color--golden .offside-about:hover {
+    background:#24262b
+}
+.action-hover-color--golden.header-action-link .offacnvas.offside-about.offcanvas-toggle:hover i{
+    color:  #fff;
+}
+.mobile-contact-info .logo img {
+    width: 150%;
+}
+.action-hover-color--golden.header-action-link li a span {
+    background: #18FFFF;
+}
+
+.search-modal input[type=search]:focus{
+    border-color:#18FFFF;
+}
+
+.btn-golden{
+    background-image: linear-gradient(to right,#18FFFF 0,#a1ff25 51%,#18FFFF 100%);
+    border-color: transparent;
+    background-size: 200%;
+    transition:  all .5s;
+}
+
+.btn-golden:hover{
+    background-position: right center;
+    color: #fff;
+}
+
+.header-wrapper .header-bottom-color--golden.sticky{
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 10%);
+}

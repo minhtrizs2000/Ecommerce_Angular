@@ -1,0 +1,13 @@
+.image-box img{
+    height: 300px;
+    width: 320px;
+}
+.breadcrumb-bg-color--golden {
+    background: #f5f5f5;
+}
+.sidebar-menu li a:hover,
+.product-color--golden .action-link-left a:hover,
+.product-color--golden .content-left .title a:hover,
+.product-color--golden .action-link-right a:hover {
+    color: #c8293c ;
+}
