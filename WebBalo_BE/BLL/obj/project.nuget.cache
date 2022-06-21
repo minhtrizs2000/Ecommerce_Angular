@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NhYjJ4q+tWzS0iZAJvJFwtwktR5p02OS2jzyqOP74gXsMfTfjDf9c0mWtCMHmXMCICUe42HjJ7+FW3wvqHoFUg==",
+  "dgSpecHash": "EP0aEFsOuVXlPxoYOS0rkBwlABtLf1da++3+FW22aDJU4AuAh5uqn+Rs5EsuDUBcwfCDIad/kvnrliBpY2mj5A==",
   "success": true,
-  "projectFilePath": "D:\\HUFLIT\\Angular\\FINAL\\WebBalo_BE\\BLL\\BLL.csproj",
+  "projectFilePath": "D:\\HUFLIT\\Angular\\FINAL\\Ecommerce_Angular\\WebBalo_BE\\BLL\\BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\mailkit\\3.0.0\\mailkit.3.0.0.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

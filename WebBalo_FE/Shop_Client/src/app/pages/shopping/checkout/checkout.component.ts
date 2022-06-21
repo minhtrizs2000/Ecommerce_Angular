@@ -190,7 +190,7 @@ export class CheckoutComponent extends BaseComponent implements OnInit {
         })
         alert('Đặt hàng thành công');
         this._cart.clearCart();
-        this.router.navigate(['/']);
+        this.router.navigate(['/contact-us']);
       }, err => { });      
     }
   }

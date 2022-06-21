@@ -85,7 +85,7 @@
                     <span  [ngClass]="{'tinhTrang': item.tinhTrang == 'Đã xử lý'}">{{item.tinhTrang}}</span>
                 </td>
                 <td style="color: red; font-weight: bold;">{{item.tongTien  | currency: "VND"}}</td>
-                <td>{{item.ngayDat | DateVN}}</td>
+                <td>{{item.ngayDat}}</td>
                 <td  style="text-align: center;">
                     <button pButton type="button" (click)="openUpdateModal(item)" title="Sửa"  class="p-button-secondary"><i class="fas fa-edit"></i></button>
                     <button pButton type="button" title="Xóa"  class="p-button-danger"><i class="fas fa-trash"></i></button>

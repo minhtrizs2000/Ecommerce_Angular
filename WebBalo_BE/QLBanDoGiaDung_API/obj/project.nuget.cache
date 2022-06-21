@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CqisFlX7DUpBQi3heaKnSlVCXlSGCPebYS/+w3ftdRaWugN8evfbH/cfzMghkwxDfqfkuVtLTkPFqoKGOHp31g==",
+  "dgSpecHash": "sWyl4W/QMF9mAXQyHVijZKwXOvmLFHO1BxXT1O/gUB7nMCqOU5r4JjyIjfhiUO/mcjx3n8MhYOdV7OHDwbJhng==",
   "success": true,
-  "projectFilePath": "D:\\HUFLIT\\Angular\\FINAL\\WebBalo_BE\\QLBanDoGiaDung_API\\QLWebBalo.csproj",
+  "projectFilePath": "D:\\HUFLIT\\Angular\\FINAL\\Ecommerce_Angular\\WebBalo_BE\\QLBanDoGiaDung_API\\QLWebBalo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\cloudinarydotnet\\1.15.2\\cloudinarydotnet.1.15.2.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\mailkit\\3.0.0\\mailkit.3.0.0.nupkg.sha512",

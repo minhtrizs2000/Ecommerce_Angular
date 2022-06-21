@@ -34,6 +34,10 @@ import { TermsOfServiceComponent } from './terms-of-service/terms-of-service.com
         component: HomeComponent
       },
       {
+        path: '/',
+        component: HomeComponent
+      },
+      {
         path:'product-list/:id',
         component: ProductListComponent
       },

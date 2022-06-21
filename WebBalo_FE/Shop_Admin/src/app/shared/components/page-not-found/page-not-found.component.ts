@@ -12,6 +12,6 @@ export class PageNotFoundComponent implements OnInit {
   ngOnInit(): void {
   }
   onBack() {
-    this.router.navigate(['/dashboard'])
+    this.router.navigate(['/'])
   }
 }

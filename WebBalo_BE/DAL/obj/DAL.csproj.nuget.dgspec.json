@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HUFLIT\\Angular\\FINAL\\WebBalo_BE\\DAL\\DAL.csproj": {}
+    "D:\\HUFLIT\\Angular\\FINAL\\Ecommerce_Angular\\WebBalo_BE\\DAL\\DAL.csproj": {}
   },
   "projects": {
-    "D:\\HUFLIT\\Angular\\FINAL\\WebBalo_BE\\DAL\\DAL.csproj": {
+    "D:\\HUFLIT\\Angular\\FINAL\\Ecommerce_Angular\\WebBalo_BE\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HUFLIT\\Angular\\FINAL\\WebBalo_BE\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\HUFLIT\\Angular\\FINAL\\Ecommerce_Angular\\WebBalo_BE\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\HUFLIT\\Angular\\FINAL\\WebBalo_BE\\DAL\\DAL.csproj",
+        "projectPath": "D:\\HUFLIT\\Angular\\FINAL\\Ecommerce_Angular\\WebBalo_BE\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\HUFLIT\\Angular\\FINAL\\WebBalo_BE\\DAL\\obj\\",
+        "outputPath": "D:\\HUFLIT\\Angular\\FINAL\\Ecommerce_Angular\\WebBalo_BE\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\HUFLIT\\Angular\\FINAL\\WebBalo_BE\\Model\\Model.csproj": {
-                "projectPath": "D:\\HUFLIT\\Angular\\FINAL\\WebBalo_BE\\Model\\Model.csproj"
+              "D:\\HUFLIT\\Angular\\FINAL\\Ecommerce_Angular\\WebBalo_BE\\Model\\Model.csproj": {
+                "projectPath": "D:\\HUFLIT\\Angular\\FINAL\\Ecommerce_Angular\\WebBalo_BE\\Model\\Model.csproj"
               }
             }
           }
@@ -84,14 +84,14 @@
         }
       }
     },
-    "D:\\HUFLIT\\Angular\\FINAL\\WebBalo_BE\\Model\\Model.csproj": {
+    "D:\\HUFLIT\\Angular\\FINAL\\Ecommerce_Angular\\WebBalo_BE\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HUFLIT\\Angular\\FINAL\\WebBalo_BE\\Model\\Model.csproj",
+        "projectUniqueName": "D:\\HUFLIT\\Angular\\FINAL\\Ecommerce_Angular\\WebBalo_BE\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "D:\\HUFLIT\\Angular\\FINAL\\WebBalo_BE\\Model\\Model.csproj",
+        "projectPath": "D:\\HUFLIT\\Angular\\FINAL\\Ecommerce_Angular\\WebBalo_BE\\Model\\Model.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\HUFLIT\\Angular\\FINAL\\WebBalo_BE\\Model\\obj\\",
+        "outputPath": "D:\\HUFLIT\\Angular\\FINAL\\Ecommerce_Angular\\WebBalo_BE\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
